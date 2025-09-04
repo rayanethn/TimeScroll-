@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TimeScroll - L'évolution de la Terre</title>
+  <link rel="stylesheet" href="new.css" />
+</head>
+<body>
+  <div class="scroller">
+    <section class="slide" style="background-image: url('images/accueil.png');">
+      <div class="content">
+        <h1>Bienvenue dans le voyage temporel 🌍</h1>
+        <p>Descends pour explorer l'évolution de la planète Terre à travers les âges.</p>
+      </div>
+    </section>
+
+    <section class="slide" style="background-image: url('images/3.png');">
+      <div class="content">
+        <h2>🌋 Terre primitive</h2><p>La Terre en formation, chaotique et volcanique.</p> 
+        <a href="index.html">pour plus d'info</a>
+      </div>
+    </section>
+    <section class="slide" style="background-image: url('images/1.png');">
+      <div class="content">
+        <h2>🌊 Origine de la vie</h2>
+        <p>Les premières cellules dans les océans primordiaux.</p></div></section>
+    <section class="slide" style="background-image: url('images/2.png');">
+      <div class="content">
+        <h2>🦖 Dinosaures</h2>
+        <p>Une époque dominée par des géants préhistoriques.</p>
+      </div>
+    </section>
+    <section class="slide" style="background-image: url('images/4.png');">
+      <div class="content">
+        <h2>🔥 Préhistoire humaine</h2>
+        <p>Le feu, les grottes, les débuts de l’humanité.</p>
+      </div>
+    </section>
+    <section class="slide" style="background-image: url('images/5.png');">
+      <div class="content">
+        <h2>🌾 Révolution agricole</h2>
+        <p>Les villages, l’agriculture, les premières civilisations.</p></div></section>
+    <section class="slide" style="background-image: url('images/6.png');">
+      <div class="content">
+        <h2>🏰 Moyen Âge</h2>
+        <p>Chevaliers, châteaux et connaissances naissantes.</p></div></section>
+    <section class="slide" style="background-image: url('images/7.png');">
+      <div class="content">
+        <h2>🏭 Révolution industrielle</h2>
+        <p>Machines, usines, mais aussi pollution.</p>
+      </div>
+    </section>
+    <section class="slide" style="background-image: url('images/8.png');">
+      <div class="content">
+        <h2>🌆 Époque moderne</h2>
+        <p>Technologie, réseaux, et défis mondiaux.</p>
+      </div>
+    </section>
+    <section class="slide" style="background-image: url('images/9.png');">
+      <div class="content">
+        <h2>🌌 Futur imaginaire</h2>
+        <p>Un avenir entre nature, IA et exploration spatiale.</p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    let scrollY = 0;
+    setInterval(() => {
+      scrollY += 1;
+      window.scrollTo({ top: scrollY, behavior: "smooth" });
+    }, 50); 
+  </script>
+</body>
+</html>
